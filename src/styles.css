@@ -1,0 +1,15 @@
+/* Remove @import "tailwindcss"; — use CDN or build pipeline instead */
+/* Small custom overrides */
+:root {
+  --site-max-width: 1024px;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  max-width: var(--site-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add any project-specific utilities or overrides here */
